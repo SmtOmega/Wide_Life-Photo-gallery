@@ -1,6 +1,7 @@
 body {
-    background-image: url(images/bg.jpg);
+    background-image: url(images/bg.jpg)no-repeat center center fixed;
     background-size: cover;
+    background-position: center center;
 }
 
 .container {
@@ -20,11 +21,13 @@ h1 {
 }
 
 img {
+    border-radius: 10px;
     width: 450px;
     height: 300px;
     margin: 10px;
     transition: 1s;
     cursor: pointer;
+    box-shadow: 4px 4px 5px #888888;
 }
 
 img:hover {
